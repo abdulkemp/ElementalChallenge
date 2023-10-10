@@ -27,20 +27,23 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 10rem;
+    padding-left: 10.5rem;
     padding-right: 10rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .logo{
-    width: 8rem;
-    height: 2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
 
 .logo img{
-    width: 100%;
-    height: 100%;
+    width: 8rem;
+    height: 2rem;
 }
 
 .logo img:hover{
@@ -54,8 +57,17 @@ header{
 }
 
 .hamburger{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 3rem;
+}
+.ham{
     width: 4rem;
     height: 4rem;
+    /* padding-right: 4rem; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -67,7 +79,7 @@ header{
     cursor: pointer;
 }
 
-.hamburger:hover{
+.ham:hover{
     background-color: rgba(128, 128, 128, 0.134);
 }
 
@@ -158,6 +170,8 @@ header{
     font-size: 100px !important;
     font-weight: bolder !important;
     background: none !important;
+    padding: 6rem !important;
+    border: 2px solid red !important;
 }
 
 .owl-prev{
@@ -165,6 +179,11 @@ header{
 }
 .owl-next{
     right: 1%;
+}
+
+.owl-next span{
+    padding-right: 4rem !important;
+    font-size: 13rem;
 }
 
 .left-block,.right-block{
@@ -175,17 +194,17 @@ header{
 .right-block{
     background-color: black;
     position: relative;
-    right: -25%;
+    right: -27.5%;
     width: 10%;
     z-index: 0;
 }
 .left-block{
     background-color: #244AC2;
     position: relative;
-    left: -25%;
+    left: -28%;
     top: 0;
     z-index: 999;
-    width: 40%;
+    width: 35%;
     /* border: 2px solid black; */
 }
 
@@ -214,82 +233,143 @@ header{
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    
 }
 
 .whole-para{
-    width: 80%;
+    width: 77%;
     height: 20vh;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 2rem;
+    padding-left: 12px;
+    /* border: 2px solid red; */
 }
 
 .left{
-    width: 50%;
+    width: 60%;
     height: 100%;
     /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 17px;
+    font-size: 15px;
     flex-wrap: wrap;
 }
 
 .right{
-    width: 40%;
+    width: 30%;
     height: 100%;
     /* border: 2px solid red; */
-    display: flex;
+    /* display: flex;
     justify-content: end;
-    align-items: center;
-    /* padding-top: 1rem; */
-    padding-right: 2rem;
+    align-items: center; */
+    padding-top: 1rem;
+    /* padding-right: 2rem; */
 }
 .icons{
-    /* border: 2px solid black;; */
+    /* border: 2px solid black; */
     height: 3rem;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .img1{
-    width: 3rem;
-    height: 1rem;
+    width: 2rem;
+    height: 7px;
     /* border: 2px solid red */
 }
 .img2{
-    width: 2rem;
-    height: 3rem;
+    width: 13px;
+    height:27px;
     /* border: 2px solid red */
 }
 .img3{
-    width: 3rem;
-    height: 3rem;
+    width: 25px;
+    height: 25px;
     /* border: 2px solid red */
 }
 .img4{
-    width: 3rem;
-    height: 3rem;
+    width: 25px;
+    height: 30px;
     /* border: 2px solid red */
 }
 .img5{
-    width: 3rem;
-    height: 2rem;
+    width: 2rem;
+    height:15px;
     /* border: 2px solid red */
 }
 .img6{
-    width: 1rem;
-    height: 3rem;
+    width: 8px;
+    height: 2rem;
     /* border: 2px solid red */
 }
 .img7{
-    width: 3rem;
-    height: 2rem;
+    width: 2rem;
+    height:15px;
     /* border: 2px solid red */
+}
+
+.ion1{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.ion2{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.ion3{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.ion4{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.ion5{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* padding: 3px; */
+    /* border: 2px solid red; */
+}
+.ion6{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+.ion7{
+    width: 14%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    /* padding: 9px; */
+    /* border: 2px solid red; */
 }
 
 .img1,.img2,.img3,.img4,.img5,.img6,.img7:hover{
@@ -300,18 +380,27 @@ header{
     width: 80%;
     height: 100%;
     margin-top: 2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cards{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+    width: 85%;
+    gap: 1rem;
+    /* display: grid;
     grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
-    /* gap: 1rem; */
-    padding-left: 2rem;
+    padding-left: 2rem; */
 }
 
 .card{
-    width: 330px;
+    /* width: 100px; */
     height: 220px;
+    flex: 1 0 140px;
 }
 
 .card-head{
@@ -338,6 +427,7 @@ header{
     align-items: center;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    border: none;
 }
 
 .buttons:hover{
@@ -361,7 +451,7 @@ header{
 }
 
 .buttons p{
-    font-size: 9px;
+    font-size: 4px;
     color: white;
 }
 
@@ -377,7 +467,7 @@ header{
         margin-top: 0;
     }
     
-    .cards{
+    /* .cards{
         padding-left: 0;
         width: 100%;
         height: 50%;
@@ -386,7 +476,7 @@ header{
         align-items: center;
         gap: 1rem;
         padding: 1rem;
-    }
+    } */
     
     .card{
         width: 300;
@@ -408,8 +498,8 @@ header{
     }
 
     .buttons{
-        height: 50px;
-        width: 9rem;
+        height: 40px;
+        width: 10rem;
     }
     
     .links{
@@ -425,7 +515,7 @@ header{
     
     
     .buttons p{
-        font-size: 14px;
+        font-size: 10px;
         color: white;
     }
 
@@ -509,7 +599,7 @@ header{
         margin-top: 0;
     }
     
-    .cards{
+    /* .cards{
         padding-left: 0;
         width: 100%;
         height: 100%;
@@ -517,7 +607,8 @@ header{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-    }
+    } */
+
     
     .card{
         width: 100%;
@@ -532,22 +623,23 @@ header{
     }
 
     .card-head img{
-        width: 4.5rem;
-        height: 4.5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 
     .card-head h3{
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .buttons{
-        height: 80px;
-        width: 18rem;
+        height: 60px;
+        width: 155px;
     }
     
     .links{
         width: 100%;
         height: 50%;
+        border: 2px solid red;
     }
 
     .links img{
@@ -557,7 +649,7 @@ header{
     
     
     .buttons p{
-        font-size: 18px;
+        font-size: 15px;
         color: white;
     }
     
@@ -664,9 +756,9 @@ header{
         flex-direction: column;
     }
     
-    .cards{
+    /* .cards{
         padding-left: 0;
-    }
+    } */
     
     .card{
         width: 330px;
@@ -676,6 +768,15 @@ header{
     .card-head{
         width: 100%;
         height: 50%;
+        /* background-color: red; */
+    }
+
+    .card-head h3{
+        font-size: 18px;
+    }
+    .card-head img{
+        width: 32px;
+        height: 32px;
     }
 
     .buttons{
@@ -692,4 +793,59 @@ header{
         font-size: 10px;
         color: white;
     }
+}
+
+@media (width <= 200px){
+   .navbar{
+    padding-left: 0;
+    padding-right: 2.7rem;
+    border: 2px solid black;
+   }
+   .logo img{
+    width: 50px;
+    height: 15px;
+   }
+
+   .logo{
+    width: 105px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    border: 2px solid black;
+   }
+
+   .hamburger{
+    height: 40px;
+    width: 40px;
+   }
+
+   .hamburger svg{
+    width: 17px;
+    height: 17px;
+   }
+
+   .left-block{
+    height: 55px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   }
+   .right-block{
+    height: 55px;
+   }
+
+   .left-text{
+    padding: 0;
+    padding-top: 0;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 7px;
+    width: 100px;
+    border: 2px solid red;
+   }
+
+   .card{
+    width: 100%;
+   }
 }
