@@ -655,7 +655,7 @@ header {
         flex-direction: column;
         padding-left: 0;
         margin-top: 0;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .owl-next span {
@@ -791,7 +791,7 @@ header {
         flex-direction: column;
         padding-left: 0;
         margin-top: 0;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
         /* border: 2px solid black; */
     }
 
