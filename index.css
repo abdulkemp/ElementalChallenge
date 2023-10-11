@@ -87,7 +87,7 @@ header {
 
 #caroo {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
@@ -96,7 +96,7 @@ header {
 
 .whole-caro {
     width: 80%;
-    height: 100vh;
+    height: 70vh;
     /* border: 2px solid yellow; */
     position: absolute;
     z-index: 500;
@@ -109,7 +109,7 @@ header {
 
 .slide {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -127,21 +127,9 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     /* border: 2px solid red; */
 }
-
-.slide-1 {
-    background-image: url(https://i.postimg.cc/2SrFLBZ2/Outlook.jpg);
-}
-
-.slide-2 {
-    background-image: url(https://i.postimg.cc/vHWtmvc4/download.jpg);
-}
-
-.slide-3 {
-    background-image: url(https://i.postimg.cc/JhhNPVKX/Watercolor-by-Thanakorn-Thai-Farmer-Chiang-Mai-Thailand-Watercolor-56-x-76-cm.jpg);
-}
-
-.slide-4 {
-    background-image: url(https://i.postimg.cc/T30jVYjG/Hot-Item-Oil-Painting-Farm.jpg);
+.slide img{
+    height: 100%;
+    width: 100%;
 }
 
 .owl-dots {
@@ -177,7 +165,6 @@ header {
     font-weight: bolder !important;
     background: none !important;
     padding: 6rem !important;
-    border: 2px solid red !important;
 }
 
 .owl-prev {
@@ -248,18 +235,16 @@ header {
 .whole-para {
     width: 77%;
     height: 100%;
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 12px;
+    padding-left: 5px;
     /* border: 2px solid red; */
 }
 
 .left {
     width: 60%;
     height: 100%;
-    /* border: 2px solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -268,141 +253,28 @@ header {
 }
 
 .right {
-    width: 30%;
+    width: 40%;
     height: 100%;
-    /* border: 2px solid red; */
-    /* display: flex;
+    display: flex;
     justify-content: end;
-    align-items: center; */
-    padding-top: 1rem;
+    align-items: center;
+    padding-bottom: 2rem;
     /* padding-right: 2rem; */
 }
 
 .icons {
-    /* border: 2px solid black; */
-    height: 3rem;
+    /* height: 3rem; */
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons img{
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.img1 {
-    width: 2rem;
-    height: 7px;
-    /* border: 2px solid red */
-}
-
-.img2 {
-    width: 13px;
-    height: 27px;
-    /* border: 2px solid red */
-}
-
-.img3 {
-    width: 25px;
-    height: 25px;
-    /* border: 2px solid red */
-}
-
-.img4 {
-    width: 25px;
-    height: 30px;
-    /* border: 2px solid red */
-}
-
-.img5 {
-    width: 2rem;
-    height: 15px;
-    /* border: 2px solid red */
-}
-
-.img6 {
-    width: 8px;
-    height: 2rem;
-    /* border: 2px solid red */
-}
-
-.img7 {
-    width: 2rem;
-    height: 15px;
-    /* border: 2px solid red */
-}
-
-.ion1 {
-    width: 14%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
 }
 
-.ion2 {
-    width: 14%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-}
-
-.ion3 {
-    width: 14%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-}
-
-.ion4 {
-    width: 14%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-}
-
-.ion5 {
-    width: 14%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    /* padding: 3px; */
-    /* border: 2px solid red; */
-}
-
-.ion6 {
-    width: 14%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid red; */
-}
-
-.ion7 {
-    width: 14%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    /* padding: 9px; */
-    /* border: 2px solid red; */
-}
-
-.img1,
-.img2,
-.img3,
-.img4,
-.img5,
-.img6,
-.img7:hover {
-    cursor: pointer;
-}
 
 .container {
     width: 90%;
@@ -561,18 +433,20 @@ header {
     }
 
     #caroo {
-        height: 70vh;
+        height: 60vh;
     }
 
     .whole-caro {
-        height: 70vh;
+        height: 60vh;
     }
+
+    
 
     .slide-1,
     .slide-2,
     .slide-3,
     .slide-4 {
-        height: 70vh;
+        height: 60vh;
     }
 
     .owl-next span {
@@ -608,7 +482,7 @@ header {
     }
 
     .whole-para{
-        padding-top: 3rem;
+        /* padding-top: 3rem; */
         margin-bottom: 3rem;
         height: 100%;
         padding-left: 0;
@@ -621,46 +495,12 @@ header {
     }
     .right{
         display: flex;
-        justify-content: start;
+        justify-content: end;
         align-items: center;
         height: 100%;
         width: 70%;
         padding-bottom: 8rem;
-    }
-
-    .img1 {
-        width: 3rem;
-        height: 10px;
-    }
-    
-    .img2 {
-        width: 17px;
-        height: 32px;
-    }
-    
-    .img3 {
-        width: 35px;
-        height: 35px;
-    }
-    
-    .img4 {
-        width: 32px;
-        height: 37px;
-    }
-    
-    .img5 {
-        width: 3.5rem;
-        height: 20px;
-    }
-    
-    .img6 {
-        width: 12px;
-        height: 3rem;
-    }
-    
-    .img7 {
-        width: 3.5rem;
-        height: 20px;
+        padding-top: 1rem;
     }
 
     .container {
@@ -718,230 +558,6 @@ header {
         margin: 0.5rem;
     }
 }
-/* @media (width >= 1500px) {
-    body{
-        visibility: hidden;
-    }
-
-    nav {
-        height: 15rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .navbar {
-        padding-left: 0;
-        padding-right: 0;
-        display: flex;
-        gap: 4rem;
-        height: 100%;
-    }
-
-    .logo img {
-        width: 200px;
-        height: 40px;
-    }
-
-    .nav-logo {
-        width: 50%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 4rem;
-    }
-
-    .logo {
-        width: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 4rem;
-    }
-
-    .whole-ham {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        padding-left: 5rem;
-    }
-
-    .hamburger {
-        width: 50%;
-        height: 100%;
-        padding-right: 0;
-        padding-left: 6rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .ham {
-        padding-right: 0;
-        height: 8rem;
-        width: 8rem;
-    }
-
-    .hamburger svg {
-        width: 4rem;
-        height: 4rem;
-    }
-
-    #caroo {
-        height: 60vh;
-    }
-
-    .whole-caro {
-        height: 60vh;
-    }
-
-    .slide-1,
-    .slide-2,
-    .slide-3,
-    .slide-4 {
-        height: 60vh;
-    }
-
-    .owl-next span {
-        padding-right: 5rem !important;
-        font-size: 12rem !important;
-    }
-
-    .owl-dots span {
-        width: 27px !important;
-        height: 27px !important;
-    }
-
-    .left-block,
-    .right-block {
-        height: 120px;
-    }
-
-    .left-block {
-        display: flex;
-        justify-content: end;
-        align-items: center;
-    }
-
-    .left-text {
-        width: 20rem;
-        display: flex;
-        justify-content: start;
-        align-items: center;
-        text-align: start;
-        font-size: 18px;
-        padding: 0;
-    }
-
-
-    .left{
-        font-size: 24px;
-    }
-    .right{
-        display: flex;
-        justify-content: start;
-        align-items: center;
-    }
-
-    .img1 {
-        width: 3rem;
-        height: 10px;
-    }
-    
-    .img2 {
-        width: 17px;
-        height: 32px;
-    }
-    
-    .img3 {
-        width: 35px;
-        height: 35px;
-    }
-    
-    .img4 {
-        width: 32px;
-        height: 37px;
-    }
-    
-    .img5 {
-        width: 3.5rem;
-        height: 20px;
-    }
-    
-    .img6 {
-        width: 12px;
-        height: 3rem;
-    }
-    
-    .img7 {
-        width: 3.5rem;
-        height: 20px;
-    }
-
-    .container {
-        width: 90%;
-        height: 100%;
-        margin-top: 1rem;
-    }
-
-    .whole-para{
-        border: 2px solid red;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-        height: 100%;
-    }
-
-    .cards{
-       height: 300px;
-    }
-
-    .card {
-        width: 300;
-        height: 300px;
-    }
-
-    .card-head {
-        width: 100%;
-        height: 50%;
-    }
-
-    .card-head img {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .card-head h3 {
-        font-size: 20px;
-    }
-
-    .buttons {
-        height: 40px;
-        width: 11rem;
-    }
-
-    .links {
-        width: 100%;
-        height: 50%;
-    }
-
-    .links img {
-        width: 20px;
-        height: 20px;
-    }
-
-
-    .buttons p {
-        font-size: 10px;
-        color: white;
-    }
-
-    .right img {
-        margin: 0.5rem;
-    }
-} */
 
 @media (501px <=width <=1000px) {
     .navbar {
@@ -1000,17 +616,17 @@ header {
 
     #caroo {
         width: 100%;
-        height: 50vh;
+        height: 40vh;
     }
 
     .whole-caro {
         width: 80%;
-        height: 50vh;
+        height: 40vh;
     }
 
     .slide {
         width: 100%;
-        height: 50vh;
+        height: 40vh;
     }
 
     .left-block {
@@ -1065,6 +681,14 @@ header {
         height: 100%;
         padding-right: 0;
         padding-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons img{
+        height: 5rem;
+        width: 20rem;
     }
 
     .container {
@@ -1132,17 +756,17 @@ header {
 
     #caroo {
         width: 100%;
-        height: 50vh;
+        height: 30vh;
     }
 
     .whole-caro {
         width: 80%;
-        height: 50vh;
+        height: 30vh;
     }
 
     .slide {
         width: 100%;
-        height: 50vh;
+        height: 30vh;
     }
 
     .owl-dots span {
@@ -1168,6 +792,7 @@ header {
         padding-left: 0;
         margin-top: 0;
         margin-bottom: 4rem;
+        /* border: 2px solid black; */
     }
 
     .left {
@@ -1183,41 +808,10 @@ header {
         height: 100%;
         padding-right: 0;
         padding-top: 2rem;
-    }
-
-    .img1 {
-        width: 1.5rem;
-        height: 1rem;
-    }
-
-    .img2 {
-        width: 1.5rem;
-        height: 2rem;
-    }
-
-    .img3 {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .img4 {
-        width: 2rem;
-        height: 2rem;
-    }
-
-    .img5 {
-        width: 1.5rem;
-        height: 2rem;
-    }
-
-    .img6 {
-        width: 1rem;
-        height: 2rem;
-    }
-
-    .img7 {
-        width: 1.5rem;
-        height: 2rem;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container {
