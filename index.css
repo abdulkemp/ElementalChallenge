@@ -247,7 +247,7 @@ header {
 
 .whole-para {
     width: 77%;
-    height: 20vh;
+    height: 100%;
     /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
@@ -488,10 +488,10 @@ header {
     height: 13px;
 }
 
-/* @media (1000px <=width <=2000px) {
-    body{
+@media (width >=1500px) {
+    /* body{
         visibility: hidden;
-    }
+    } */
 
     nav {
         height: 15rem;
@@ -519,7 +519,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 4rem;
+        padding-right: 0;
     }
 
     .logo {
@@ -527,7 +527,7 @@ header {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 8rem;
+        padding-right: 4rem;
     }
 
     .whole-ham {
@@ -536,7 +536,7 @@ header {
         justify-content: center;
         align-items: center;
         height: 100%;
-        padding-left: 10rem;
+        padding-left: 4rem;
     }
 
     .hamburger {
@@ -561,18 +561,18 @@ header {
     }
 
     #caroo {
-        height: 40vh;
+        height: 70vh;
     }
 
     .whole-caro {
-        height: 40vh;
+        height: 70vh;
     }
 
     .slide-1,
     .slide-2,
     .slide-3,
     .slide-4 {
-        height: 40vh;
+        height: 70vh;
     }
 
     .owl-next span {
@@ -597,30 +597,35 @@ header {
     }
 
     .left-text {
-        width: 28rem;
+        width: 25rem;
         display: flex;
         justify-content: start;
         align-items: center;
         text-align: start;
-        font-size: 25px;
+        font-size: 18px;
         padding: 0;
+        padding-left: 3rem;
     }
 
     .whole-para{
-        border: 2px solid red;
         padding-top: 3rem;
         margin-bottom: 3rem;
         height: 100%;
+        padding-left: 0;
     }
 
 
     .left{
-        font-size: 30px;
+        font-size: 25px;
+        width: 100%;
     }
     .right{
         display: flex;
         justify-content: start;
         align-items: center;
+        height: 100%;
+        width: 70%;
+        padding-bottom: 8rem;
     }
 
     .img1 {
@@ -669,7 +674,7 @@ header {
     }
 
     .card {
-        width: 300;
+        width: 300px;
         height: 300px;
     }
 
@@ -705,15 +710,15 @@ header {
 
 
     .buttons p {
-        font-size: 16px;
+        font-size: 12px;
         color: white;
     }
 
     .right img {
         margin: 0.5rem;
     }
-} */
-/* @media (1000px <=width <=1500px) {
+}
+/* @media (width >= 1500px) {
     body{
         visibility: hidden;
     }
