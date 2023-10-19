@@ -267,6 +267,11 @@ header {
     height: 45px;
 }
 
+.down{
+    margin-bottom: 0.5rem;
+}
+
+
 
 .container {
     width: 90%;
