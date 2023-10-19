@@ -768,6 +768,8 @@ header {
         color: white;
     }
 
+    
+
 }
 
 @media (width <=500px) {
@@ -795,6 +797,10 @@ header {
     .owl-dots span {
         width: 15px !important;
         height: 15px !important;
+    }
+
+    .owl-next{
+        top: 38% ;
     }
 
     .left-text {
