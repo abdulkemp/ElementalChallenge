@@ -262,17 +262,9 @@ header {
     /* padding-right: 2rem; */
 }
 
-.icons {
-    /* height: 3rem; */
-    width: 78%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icons img{
-    width: 100%;
-    height: 100%;
+.svgs svg{ 
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -503,6 +495,16 @@ header {
         padding-top: 1rem;
     }
 
+    .svgs{
+        width: 100%;
+        height: 100%;
+    }
+
+    .svgs svg{
+        width: 55px;
+        height: 55px;
+    }
+
     .container {
         width: 90%;
         height: 100%;
@@ -556,6 +558,27 @@ header {
 
     .right img {
         margin: 0.5rem;
+    }
+}
+
+@media (1001px <=width <= 1200px) {
+    .whole-para{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .right{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 3rem;
     }
 }
 
@@ -686,9 +709,9 @@ header {
         align-items: center;
     }
 
-    .icons img{
-        height: 5rem;
-        width: 20rem;
+    .svgs svg{
+        width: 50px;
+        height: 50px;
     }
 
     .container {
@@ -814,6 +837,16 @@ header {
         align-items: center;
     }
 
+    .svgs{
+        width: 100%;
+        height: 100%;
+    }
+
+    .svgs svg{
+        width: 35px;
+        height: 35px;
+    }
+
     .container {
         width: 100%;
         height: 100%;
@@ -870,6 +903,21 @@ header {
         padding-right: 0;
         display: flex;
         gap: 4rem;
+    }
+
+    #caroo {
+        width: 100%;
+        height: 20vh;
+    }
+
+    .whole-caro {
+        width: 80%;
+        height: 20vh;
+    }
+
+    .slide {
+        width: 100%;
+        height: 20vh;
     }
 
     .logo img {
@@ -929,6 +977,16 @@ header {
 
     .right-block {
         height: 55px;
+    }
+
+    .svgs{
+        width: 100%;
+        height: 100%;
+    }
+
+    .svgs svg{
+        width: 30px;
+        height: 30px;
     }
 
     .left-text {
