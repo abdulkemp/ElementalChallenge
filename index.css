@@ -40,6 +40,7 @@ header {
     display: flex;
     justify-content: start;
     align-items: center;
+    cursor: pointer;
 }
 
 .logo img {
